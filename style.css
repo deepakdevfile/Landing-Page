@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.header{
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: right;
+}
+
+
+.intro{
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    gap: 1%;
+    padding: 10% 1%;
+}
+
+.intro .text{
+    flex: 1;
+}
+
+.intro .image{
+    flex: 1;
+}
+
+.button{
+    background: #3982F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    padding: 2% 5%;
+}
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 1%;
+    background: #fbfcff;
+    flex: 1;
+}
+
+.testi{
+    display: flex;
+    gap: 1%;
+}
+
+.testi div{
+    text-align: center;
+    margin: 1%;
+}
+
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 10% 10%;
+    background: #E5E7EB;
+}
+
+.quotes .text{
+    align-self: self-start;
+}
+
+.quotes .author {
+    align-self: self-end;
+}
+
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    background: #3982F6;
+    border-radius: 10px;
+    padding: 2% 5%;
+    gap: 5%;
+    color: #fbfcff;
+}
+
+
+.footer{
+    background: #1F2937;
+    color: #fbfcff;
+    text-align: center;
+    padding: 5%;
+}
